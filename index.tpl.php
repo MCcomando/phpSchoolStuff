@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title> Website - <?= $target_page["display_name"] ?> </title>
+    <title> Linux Foundation - <?= $target_page["display_name"] ?> </title>
     <link href="styles/style.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script async src="https://cse.google.com/cse.js?cx=003454283568902731076:4td5l4zuedz"></script>
