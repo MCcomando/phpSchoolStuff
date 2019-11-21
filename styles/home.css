@@ -1,0 +1,18 @@
+.big-header {
+    font-size: 40pt;
+    text-align: center;
+}
+
+ul.box-list {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ul.box-list > li {
+    list-style-type: none;
+    width: 20%;
+    padding: 20px;
+}

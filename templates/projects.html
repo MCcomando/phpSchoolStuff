@@ -1,0 +1,88 @@
+<article>
+    <h1>
+        Some projects within the foundation
+    </h1>
+
+    <ul>
+        <li>
+            <h2>
+                Linux
+            </h2>
+            <p>
+                Linux is the world’s largest and most pervasive open source software project in the history of
+                computing.
+                The Linux kernel is the largest component of the Linux operating system and is charged with managing the
+                hardware, running user programs, and maintaining the security and integrity of the whole system. It is
+                this
+                kernel which, after its initial release by Linus Torvalds in 1991, jump-started the development of Linux
+                as
+                a whole.
+            </p>
+            <p>
+                Linux has since become the world’s most dominant operating system, with massive adoption in almost every
+                sector, including finance, government, education, and even film production. It is also the operating
+                system
+                of choice to support cutting-edge technologies such as the Internet of Things, cloud computing, and big
+                data. It is helping to transform industries and disrupt the status quo.
+            </p>
+        </li>
+        <li>
+            <h2>NodeJS</h2>
+            <p>
+                As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network
+                applications. In the following "hello world" example, many connections can be handled concurrently. Upon
+                each connection, the callback is fired, but if there is no work to be done, Node.js will sleep.
+            </p>
+            <pre><code>
+const http = require('http');
+
+const hostname = '127.0.0.1';
+const port = 3000;
+
+const server = http.createServer((req, res) => {
+    res.statusCode = 200;
+    res.setHeader('Content-Type', 'text/plain');
+    res.end('Hello World\n');
+});
+
+server.listen(port, hostname, () => {
+    console.log(`Server running at http://${hostname}:${port}/`);
+});
+        </code></pre>
+            <p>
+                This is in contrast to today's more common concurrency model, in which OS threads are employed.
+                Thread-based
+                networking is relatively inefficient and very difficult to use. Furthermore, users of Node.js are free
+                from
+                worries of dead-locking the process, since there are no locks. Almost no function in Node.js directly
+                performs I/O, so the process never blocks. Because nothing blocks, scalable systems are very reasonable
+                to
+                develop in Node.js.
+            </p>
+        </li>
+        <li>
+            <h2>
+                The XEN project
+            </h2>
+            <p>
+                The Xen Project is the home for several virtualization-related open source projects. The community is
+                focused on advancing virtualization in a number of different commercial and open source applications,
+                including server virtualization, Infrastructure as a Services (IaaS), desktop virtualization, security
+                applications, embedded and hardware appliances, and automotive/aviation.
+            </p>
+            <p>
+                The Xen Project develops virtualization technologies powering the world’s largest clouds in production
+                and
+                is the foundation of many commercial virtualization products from Citrix, Huawei, Inspur, and Oracle.
+                The
+                Xen Project code is the basis for several security solutions, including Qubes OS, Bromium vSentry,
+                A1Logic,
+                AIS SecureView, Adventium Labs Magrana Server, Bitdefender HVI, Star Labs Crucible Hypervisor, Zentific
+                Zazen, and Dornerwork’s Virtuosity Hypervisor.
+            </p>
+            <p>
+                That maturity, stability, and versatility the Xen Project created in its 15 years are second to none.
+            </p>
+        </li>
+    </ul>
+</article>
